@@ -14,13 +14,13 @@ Daha sonra Bigram Tutorial'ı içermektedir.
 
 3-Kodlayıcı (Encoder) Katmanları: Giriş gömme ve pozisyonel kodlama sonrasında, metin kodlayıcı katmanlarına geçilir. Bu katmanlar, giriş metnindeki bilgileri hiyerarşik olarak işler. Her bir kodlayıcı katmanı şu adımları içerir:
 
-     1-Çok Başlı Dikkat (Multi-Head Attention): Her kelimenin diğer kelimelere olan dikkatini hesaplar. Bu, her kelimenin çevresindeki bağlamı anlamasına yardımcı olur.
+   1-Çok Başlı Dikkat (Multi-Head Attention): Her kelimenin diğer kelimelere olan dikkatini hesaplar. Bu, her kelimenin çevresindeki bağlamı anlamasına yardımcı olur.
 
-     2-Katman Normalizasyon (Layer Normalization): Her başlıkta hesaplanan dikkat matrisinin çıktısını normalize eder.
+   2-Katman Normalizasyon (Layer Normalization): Her başlıkta hesaplanan dikkat matrisinin çıktısını normalize eder.
 
-     3-İleri Besleme Ağları (Feed-Forward Networks): Her kelimenin temsilini daha karmaşık özelliklere dönüştürmek için kullanılır.
+   3-İleri Besleme Ağları (Feed-Forward Networks): Her kelimenin temsilini daha karmaşık özelliklere dönüştürmek için kullanılır.
 
-     4-Toplamsal Bağlam (Residual Connection): Bu adım, her katmanın çıktısına girişe olan doğrudan bağlantıyı sağlar, bu da ağın daha iyi öğrenmesine yardımcı olur.
+   4-Toplamsal Bağlam (Residual Connection): Bu adım, her katmanın çıktısına girişe olan doğrudan bağlantıyı sağlar, bu da ağın daha iyi öğrenmesine yardımcı olur.
 
 4- Toplam Çıkış:Kodlayıcı katmanlarından geçtikten sonra, elde edilen çıktılar bir dizi vektör temsilini içerir. Bu vektör temsilleri, giriş metni üzerinde yüksek düzeyde bilgi taşıyan bir temsilasyon oluşturur.
 
