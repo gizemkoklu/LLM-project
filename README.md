@@ -12,15 +12,17 @@ Daha sonra Bigram Tutorial'ı içermektedir.
 
 2- Pozisyonel Kodlama (Positional Encoding): Giriş metni, sırasal bir yapıya sahip olduğu için transformatör modeli, kelime sırasının model tarafından öğrenilememesi nedeniyle pozisyonel kodlama ekler. Pozisyonel kodlama, her kelimeye bir pozisyon bilgisi ekleyerek sıralı yapının model tarafından dikkate alınmasını sağlar.
 
-3-Kodlayıcı (Encoder) Katmanları: Giriş gömme ve pozisyonel kodlama sonrasında, metin kodlayıcı katmanlarına geçilir. Bu katmanlar, giriş metnindeki bilgileri hiyerarşik olarak işler. Her bir kodlayıcı katmanı şu adımları içerir:
+3-Kodlayıcı (Encoder) Katmanları: Giriş gömme ve pozisyonel kodlama sonrasında, metin kodlayıcı katmanlarına geçilir. 
 
-   1-Çok Başlı Dikkat (Multi-Head Attention): Her kelimenin diğer kelimelere olan dikkatini hesaplar. Bu, her kelimenin çevresindeki bağlamı anlamasına yardımcı olur.
+Bu katmanlar, giriş metnindeki bilgileri hiyerarşik olarak işler. Her bir kodlayıcı katmanı şu adımları içerir:
 
-   2-Katman Normalizasyon (Layer Normalization): Her başlıkta hesaplanan dikkat matrisinin çıktısını normalize eder.
+   *Çok Başlı Dikkat (Multi-Head Attention): Her kelimenin diğer kelimelere olan dikkatini hesaplar. Bu, her kelimenin çevresindeki bağlamı anlamasına yardımcı olur.
 
-   3-İleri Besleme Ağları (Feed-Forward Networks): Her kelimenin temsilini daha karmaşık özelliklere dönüştürmek için kullanılır.
+   *Katman Normalizasyon (Layer Normalization): Her başlıkta hesaplanan dikkat matrisinin çıktısını normalize eder.
 
-   4-Toplamsal Bağlam (Residual Connection): Bu adım, her katmanın çıktısına girişe olan doğrudan bağlantıyı sağlar, bu da ağın daha iyi öğrenmesine yardımcı olur.
+   *İleri Besleme Ağları (Feed-Forward Networks): Her kelimenin temsilini daha karmaşık özelliklere dönüştürmek için kullanılır.
+
+   *Toplamsal Bağlam (Residual Connection): Bu adım, her katmanın çıktısına girişe olan doğrudan bağlantıyı sağlar, bu da ağın daha iyi öğrenmesine yardımcı olur.
 
 4- Toplam Çıkış:Kodlayıcı katmanlarından geçtikten sonra, elde edilen çıktılar bir dizi vektör temsilini içerir. Bu vektör temsilleri, giriş metni üzerinde yüksek düzeyde bilgi taşıyan bir temsilasyon oluşturur.
 
