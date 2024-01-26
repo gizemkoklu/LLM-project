@@ -4,7 +4,7 @@ Proje ilk olarak pyTorch anlatımı ile başlamaktadır.
 
 Daha sonra Bigram Tutorial'ı içermektedir.
 
-# Transformatör Mimarisi Yapısı 
+# Transformer Mimarisi Yapısı 
 ![Transformer - model architecture](https://github.com/gizemkoklu/LLM-project/assets/93999489/ce0c6caa-4c46-4fc7-b576-7d62c0e9d9ef)
 (Attention Is All You Need - https://arxiv.org/pdf/1706.03762.pdf)
 
@@ -31,7 +31,7 @@ Bu katmanlar, giriş metnindeki bilgileri hiyerarşik olarak işler. Her bir kod
 6-Kayıp Fonksiyonu (Loss Function) ve Geri Yayılım (Backpropagation): Modelin tahminleri ile gerçek etiketler arasındaki kaybı ölçen bir kayıp fonksiyonu kullanılır. Ardından, geri yayılım algoritması kullanılarak bu kayıp geriye doğru iletilir ve modelin parametreleri, gradyan inişi kullanılarak güncellenir.
 
 
-FEED FORWARD NETWORKS İleri besleme ağları (FFN), transformatör modelinin her kodlayıcı katmanında bulunan bir alt ağdır. Bu ağ, her kelimenin temsilini daha karmaşık özelliklere dönüştürmek ve daha genel bir temsil elde etmek için kullanılır. İleri besleme ağları, genellikle iki katmanlı tam bağlı (fully connected) yapılardan oluşur.
+### FEED FORWARD NETWORKS İleri besleme ağları (FFN), transformatör modelinin her kodlayıcı katmanında bulunan bir alt ağdır. Bu ağ, her kelimenin temsilini daha karmaşık özelliklere dönüştürmek ve daha genel bir temsil elde etmek için kullanılır. İleri besleme ağları, genellikle iki katmanlı tam bağlı (fully connected) yapılardan oluşur.
 
 İleri besleme ağlarının adımları şu şekildedir:
 
@@ -49,7 +49,7 @@ Feed Forward Networks, her kelimenin temsilini zenginleştirerek daha karmaşık
 
 
 
-"Çok Başlı Dikkat" (Multi-Head Attention) adımı, transformatör modelinin temel yapı taşlarından biridir. Bu mekanizma, belirli bir kelimenin temsilini hesaplamak için aynı anda birden fazla dikkat başlığını kullanır. Bu, modelin farklı özelliklere odaklanmasını sağlar ve dil içindeki uzak bağlantıları daha iyi modellemesine yardımcı olur.
+### "Çok Başlı Dikkat" (Multi-Head Attention) adımı, transformatör modelinin temel yapı taşlarından biridir. Bu mekanizma, belirli bir kelimenin temsilini hesaplamak için aynı anda birden fazla dikkat başlığını kullanır. Bu, modelin farklı özelliklere odaklanmasını sağlar ve dil içindeki uzak bağlantıları daha iyi modellemesine yardımcı olur.
 
 Çok Başlı Dikkat adımının ayrıntıları şu şekildedir:
 
@@ -71,7 +71,7 @@ Feed Forward Networks, her kelimenin temsilini zenginleştirerek daha karmaşık
 
 
 
-"Skalalanmış Nokta-Çarpım Dikkat" (Scaled Dot-Product Attention) mekanizması, transformatör modelinde dikkat (attention) hesaplamak için kullanılan temel bir bileşendir. Bu mekanizma, bir kelimenin diğer kelimelere olan önem derecesini belirlemek için nokta-çarpım işlemi kullanır ve ağırlıkların daha stabil olması için skalalanır. 
+### "Skalalanmış Nokta-Çarpım Dikkat" (Scaled Dot-Product Attention) mekanizması, transformatör modelinde dikkat (attention) hesaplamak için kullanılan temel bir bileşendir. Bu mekanizma, bir kelimenin diğer kelimelere olan önem derecesini belirlemek için nokta-çarpım işlemi kullanır ve ağırlıkların daha stabil olması için skalalanır. 
 
 İşte bu mekanizmanın adımlarının detayları:
 
