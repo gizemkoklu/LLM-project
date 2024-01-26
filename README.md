@@ -4,9 +4,9 @@ Proje ilk olarak pyTorch anlatımı ile başlamaktadır.
 
 Daha sonra Bigram Tutorial'ı içermektedir.
 
-# Transformatör Mimarisi Yapısı
-
-file:///home/gizem/Pictures/Screenshots/Screenshot%20from%202024-01-25%2014-50-33.png (Attention Is All You Need - https://arxiv.org/pdf/1706.03762.pdf)
+# Transformatör Mimarisi Yapısı 
+![Transformer - model architecture](https://github.com/gizemkoklu/LLM-project/assets/93999489/ce0c6caa-4c46-4fc7-b576-7d62c0e9d9ef)
+(Attention Is All You Need - https://arxiv.org/pdf/1706.03762.pdf)
 
 1- Giriş Gömme (Input Embedding): İlk adım, metni kelime seviyesinde temsil etmektir. Her kelimenin gömme vektörü, genellikle öğrenilebilir parametrelerle başlar. Bu vektörler, kelimenin dil içindeki anlamını temsil eder.
 
