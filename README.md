@@ -1,6 +1,6 @@
 Bu proje Create a Large Language Model from Scratch with Python – Tutorial (https://youtu.be/UU1WVnMk4E8?si=Fgj6Tle9XatWg2fq) ile çalışarak hazırlanmış içeriği türkçe açıklamalarla anlatılmıştır.
 
-Proje ilk olarak pyTorch anlatımı ile başlamaktadır.
+Proje ilk olarak PyTorch anlatımı ile başlamaktadır.
 
 Daha sonra Bigram Tutorial'ı içermektedir.
 
