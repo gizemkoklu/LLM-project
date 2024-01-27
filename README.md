@@ -49,6 +49,7 @@ Feed Forward Networks, her kelimenin temsilini zenginleştirerek daha karmaşık
 
 
 
+![multi-head attention](https://github.com/gizemkoklu/LLM-project/assets/93999489/5b1de6b3-1e0a-4e91-a80c-06e50b2e2ff6)
 ### "Çok Başlı Dikkat" (Multi-Head Attention) adımı, transformatör modelinin temel yapı taşlarından biridir. Bu mekanizma, belirli bir kelimenin temsilini hesaplamak için aynı anda birden fazla dikkat başlığını kullanır. Bu, modelin farklı özelliklere odaklanmasını sağlar ve dil içindeki uzak bağlantıları daha iyi modellemesine yardımcı olur.
 
 Çok Başlı Dikkat adımının ayrıntıları şu şekildedir:
@@ -71,6 +72,7 @@ Feed Forward Networks, her kelimenin temsilini zenginleştirerek daha karmaşık
 
 
 
+![scaled dot-product attention](https://github.com/gizemkoklu/LLM-project/assets/93999489/022c462c-eaa5-4492-aa42-29694cb6e58f)
 ### "Skalalanmış Nokta-Çarpım Dikkat" (Scaled Dot-Product Attention) mekanizması, transformatör modelinde dikkat (attention) hesaplamak için kullanılan temel bir bileşendir. Bu mekanizma, bir kelimenin diğer kelimelere olan önem derecesini belirlemek için nokta-çarpım işlemi kullanır ve ağırlıkların daha stabil olması için skalalanır. 
 
 İşte bu mekanizmanın adımlarının detayları:
