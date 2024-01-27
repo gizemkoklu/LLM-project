@@ -4,7 +4,7 @@ Proje ilk olarak PyTorch anlatımı ile başlamaktadır.
 
 Daha sonra Bigram Tutorial'ı içermektedir.
 
-# Transformer Mimarisi Yapısı 
+# Transformer Mimari Yapısı 
 ![Transformer - model architecture](https://github.com/gizemkoklu/LLM-project/assets/93999489/ce0c6caa-4c46-4fc7-b576-7d62c0e9d9ef)
 (Attention Is All You Need - https://arxiv.org/pdf/1706.03762.pdf)
 
@@ -94,6 +94,12 @@ Feed Forward Networks, her kelimenin temsilini zenginleştirerek daha karmaşık
 
 
 Bu işlemler, her kelimenin diğer kelimelere olan dikkatini hesaplayan ve bu dikkat kullanılarak daha zengin bir temsil oluşturan Skalalanmış Nokta-Çarpım Dikkat mekanizmasını açıklar. Bu mekanizma, transformatör modelinin dil içindeki bağlantıları anlamasına ve farklı özelliklere odaklanmasına yardımcı olur.
+
+
+
+
+# GPT MİMARİSİ
+
 
 
 
