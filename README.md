@@ -101,6 +101,9 @@ Bu işlemler, her kelimenin diğer kelimelere olan dikkatini hesaplayan ve bu di
 # GPT MİMARİSİ
 
 
+![transformer vs gpt](https://github.com/gizemkoklu/LLM-project/assets/93999489/67c3ecf9-516d-4dd9-9ec3-eda55167967f)
+
+
 
 
 
