@@ -138,4 +138,30 @@ Multi-Head Attention, dikkat mekanizmasını birden çok alt-mekanizma ile geni�
 
 
 
+### GPT mimarisinin bazı özneleri ve tanımları:
 
+* Tokenization (Belirteçleme): GPT, giriş metni parçalara ayırmak için bir belirteçleme işlemi kullanır.
+
+* Embedding (Gömme): Belirteçler, kelime gömme katmanına geçirilir, bu katman kelimeleri öğrenilebilir vektörlerle temsil eder.
+
+* Transformer Encoder: GPT, bir dizi Transformer Encoder katmanını içerir. Bu katmanlar, giriş metninin bağlamını anlamak için dikkat mekanizmasını kullanır.
+
+* Attention Mechanism (Dikkat Mekanizması): Dikkat mekanizması, her bir belirtecin diğer belirtecilere olan önemini belirler. Bu, uzun mesafeli bağlantıları modellemeye olanak tanır.
+
+* Layer Normalization:  Her Transformer katmanının çıkışı, normalizasyon işleminden geçirilir. Bu, eğitim sürecini stabilize eder.
+
+* Positional Encoding (Pozisyonel Kodlama): GPT, belirteçlerin sırasını modellemek için pozisyonel kodlamayı kullanır. Bu, belirteçlerin metindeki konumunu temsil eder.
+
+* Layer-wise Feedforward Networks: Her Transformer katmanının içinde, bir dizi layer-wise beslemeli (feedforward) ağ bulunur.
+
+* Multi-Head Attention: Dikkat mekanizması, birden çok kafa (head) ile genişletilir, her bir kafa farklı özelliklere odaklanabilir.
+
+* Position-wise Feedforward Networks: GPT'nin katmanlarında, her belirteç için ayrı ayrı uygulanan bir pozisyon bazlı beslemeli ağ vardır.
+
+* Layer Output: Her bir Transformer katmanının çıkışı, bir sonraki katmana veya çıkışa giden giriş olabilir.
+
+* Layer Stacking: GPT, birbiri üzerine istiflenmiş birden çok Transformer katmanını içerir.
+
+* Pre-training: GPT, geniş bir dil veri kümesi üzerinde ön-eğitim aşamasından geçer. Bu, genel dil anlayışını kazanmasını sağlar.
+
+* Fine-tuning: Ön-eğitimden sonra, GPT özel görevlere adapte edilebilir. Bu, fine-tuning aşamasını içerir.
