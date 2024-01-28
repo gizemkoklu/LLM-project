@@ -104,8 +104,37 @@ Bu işlemler, her kelimenin diğer kelimelere olan dikkatini hesaplayan ve bu di
 ![transformer vs gpt](https://github.com/gizemkoklu/LLM-project/assets/93999489/67c3ecf9-516d-4dd9-9ec3-eda55167967f)
 
 
+GPT (Generative Pre-trained Transformer), OpenAI tarafından geliştirilen bir yapay zeka dil modelidir. GPT mimarisinin en ince ayrıntısına inmek için, "GPT-3" modelini örnek alalım.
 
+* Transformer Mimarisi: GPT, "Transformer" adlı bir dil modeli mimarisini kullanır. Bu mimari, özellikle dil işleme görevlerinde yüksek performans göstermesiyle bilinir. Dikkat mekanizması, öğrenme sürecinde belirli kısımlara odaklanma yeteneği ile dikkat çeker.
 
+* Çoklu Kafa Dikkat Mekanizması (Multi-Head Attention): GPT, dikkat mekanizması kullanır. Bu, her bir giriş kelimesinin çıktıda hangi kısımlara daha fazla vurgu yapılması gerektiğini belirlemek için kullanılır.
+Multi-Head Attention, dikkat mekanizmasını birden çok alt-mekanizma ile genişletir.
+
+* Ön-eğitim (Pre-training): GPT, büyük miktarlarda metin verisi üzerinde "ön-eğitim" adı verilen bir süreçten geçer. Bu süreçte model, genel dil anlamını ve bağlamını öğrenir.
+Ön-eğitim aşamasında, modelin birçok dil görevini anlayabilmesi için çeşitli dil görevleri üzerinde eğitildiği birçok veri kümesi kullanılır.
+
+* Dönüşlü (Autoregressive) Model: GPT, dönüşlü bir dil modelidir. Yani, bir cümleyi oluştururken önceki kelimelerin bilgisini kullanır. Bu, dildeki bağlamsal ilişkileri daha iyi anlamasına yardımcı olur.
+
+* Katmanlar (Layers): GPT modelleri, birbirine bağlı birçok katmandan oluşur. GPT-3 gibi büyük modeller, genellikle yüzlerce milyon parametreye sahip çok sayıda katman içerir.
+
+* Özelleştirilebilir Boyutlar (Configurable Dimensions): GPT'nin mimarisi, giriş boyutu, model boyutu ve diğer özellikleri özelleştirmeye olanak tanır. Bu, farklı büyüklükteki modellerin oluşturulabilmesine ve çeşitli görevlerde kullanılabilmesine olanak tanır.
+
+* Transfer Öğrenme (Transfer Learning): GPT'nin temel gücü, ön-eğitim sırasında genel dil anlayışını öğrenmesi ve daha sonra bu öğrenilen bilgiyi çeşitli görevlerde transfer edebilmesidir.
+
+* Kendi Düzenlemeli (Self-Attention) Mekanizması: Transformer mimarisi, kendi düzenlemeli mekanizma içerir. Bu mekanizma, bir kelimenin anlamını belirlerken diğer kelimelerin katkısını dikkate alır. Bu, uzun mesafeli bağlantıları modellemenin daha etkili olmasına olanak tanır.
+
+* Kümeleme (Layer Normalization) ve Hesaplama Verimliliği: GPT'nin her katmanında kümeleme (layer normalization) kullanılır. Bu, eğitim sürecini stabilize etmeye ve daha hızlı öğrenmeye yardımcı olabilir. Ayrıca, paralel hesaplama ve eğitim sürecinin daha hızlı gerçekleştirilmesi için özel bir dikkat mekanizması vardır.
+
+* Ön-eğitim (Pre-training) Aşamaları: GPT, geniş bir dil veri kümesi üzerinde ön-eğitimden geçer. Bu, modelin dilin genel yapısını, kelime ilişkilerini ve dünya genelindeki dil kalıplarını öğrenmesine olanak tanır.
+
+* Geliştirilmiş Özyinelemeli (Recursive) Yapı: GPT, geliştirilmiş bir özyinelemeli yapı kullanır. Bu, modelin belirli görevlere uygun özel bilgileri öğrenmesini sağlar.
+
+* Adaptif Öğrenme Oranı (Adaptive Learning Rate): Eğitim sırasında, öğrenme oranı adaptif bir şekilde ayarlanabilir. Bu, eğitim başlangıcında hızlı öğrenme ve daha sonra stabilizasyon için yavaşlama sağlar.
+
+* Dil Görevlerinde Çok Yönlü Kullanım: GPT, metin tabanlı çeşitli görevlerde kullanılabilir. Ön-eğitim sırasında genel dil anlamını öğrenen model, daha sonra belirli görevlere uyarlanabilir.
+
+* GPT-3 ve Büyük Boyutlar: GPT-3 gibi büyük modeller, yüz milyonlarca veya milyarlarca parametreye sahiptir. Bu büyük boyutlar, genel dil anlayışının daha karmaşık ve zengin olmasına olanak tanır.
 
 
 
