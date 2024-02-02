@@ -170,12 +170,20 @@ Multi-Head Attention, dikkat mekanizmasını birden çok alt-mekanizma ile geni�
 * `Layer Stacking`: GPT, birbiri üzerine istiflenmiş birden çok Transformer katmanını içerir.
 
 * `Pre-training`: Pre-training, genellikle büyük bir veri kümesi üzerinde genel bir görevi çözmek için kullanılır.
-  *Model, geniş ve çeşitli bir veri kümesi üzerinde unsupervised (gözetimsiz) veya self-supervised (kendi gözetimli) bir şekilde öğrenme sürecinden geçer.
-  *Öğrenilen temsillemeler genel bilgi ve desenleri içerir ve genellikle genel dil anlama yeteneklerini yansıtır.
+* 
+  * Model, geniş ve çeşitli bir veri kümesi üzerinde unsupervised (gözetimsiz) veya self-supervised (kendi gözetimli) bir şekilde öğrenme sürecinden geçer.
+  
+  * Öğrenilen temsillemeler genel bilgi ve desenleri içerir ve genellikle genel dil anlama yeteneklerini yansıtır.
+  
   * Örneğin, GPT-3 modeli, büyük bir dil modelini unsupervised bir şekilde eğiterek pre-training yapar.
 
+
 * `Fine-tuning`: Ön-eğitimden sonra, GPT özel görevlere adapte edilebilir. Bu, fine-tuning aşamasını içerir.
-  *Fine-tuning, genellikle daha küçük ve özelleştirilmiş bir veri kümesinde belirli bir görevi çözmek için kullanılır.
-  *Pre-training aşamasında öğrenilen genel bilgileri, belirli bir görevde daha spesifik ve hassas hale getirmek amacıyla kullanılır.
-  *Model, genelde daha spesifik etiketlenmiş veri kümesi üzerinde supervised (gözetimli) bir şekilde eğitim alır.
-  *Örneğin, genel dil anlama yeteneklerine sahip bir dil modeli, belirli bir endüstri veya konu alanına özgü metinleri anlamak için fine-tuning'e tabi tutulabilir.
+* 
+  * Fine-tuning, genellikle daha küçük ve özelleştirilmiş bir veri kümesinde belirli bir görevi çözmek için kullanılır.
+  
+  * Pre-training aşamasında öğrenilen genel bilgileri, belirli bir görevde daha spesifik ve hassas hale getirmek amacıyla kullanılır.
+  
+  * Model, genelde daha spesifik etiketlenmiş veri kümesi üzerinde supervised (gözetimli) bir şekilde eğitim alır.
+  
+  * Örneğin, genel dil anlama yeteneklerine sahip bir dil modeli, belirli bir endüstri veya konu alanına özgü metinleri anlamak için fine-tuning'e tabi tutulabilir.
