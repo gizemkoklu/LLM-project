@@ -4,6 +4,10 @@ Proje ilk olarak PyTorch anlatımı ile başlamaktadır.
 
 Daha sonra Bigram Tutorial'ı içermektedir.
 
+gpt-v1.ipynb dosyası ile gpt modeli anlatılmaktadır.
+
+train.py ve chatbot.py dosyalarında da sonuç denemeleri yapılmıştır.
+
 # Transformer Mimari Yapısı 
 ![Transformer - model architecture](https://github.com/gizemkoklu/LLM-project/assets/93999489/ce0c6caa-4c46-4fc7-b576-7d62c0e9d9ef)
 (Attention Is All You Need - https://arxiv.org/pdf/1706.03762.pdf)
